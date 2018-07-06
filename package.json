@@ -1,19 +1,20 @@
 {
-  "name": "crowdin",
+  "name": "crowdin-without-vulnerability",
   "version": "1.0.0",
   "description": "Download translations from Crowdin",
   "license": "Apache 2.0",
   "main": "index.js",
+  "author": "hailocab",
   "repository": {
     "type": "git",
-    "url": "https://github.com/hailocab/crowdin-node.git"
+    "url": "https://github.com/Doges/crowdin-node.git"
   },
   "scripts": {
     "test": "mocha",
     "coverage": "istanbul cover node_modules/.bin/_mocha"
   },
   "keywords": [
-    "crowdin"
+    "crowdin-without-vulnerability"
   ],
   "dependencies": {
     "bluebird": "^2.9.21",
